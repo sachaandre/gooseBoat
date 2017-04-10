@@ -1,0 +1,596 @@
+fileFormatVersion: 2
+guid: 8d58cd0804ffb474cabeedcece0407ef
+timeCreated: 1487576547
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Cloneur
+    100002: Cube
+    100004: Cube_1
+    100006: Cube_1_2
+    100008: Cube_1_3
+    100010: Cube_2
+    100012: Cube_2_2
+    100014: Cube_3
+    100016: Cube_3_2
+    100018: Cube_4
+    100020: Cube_5
+    100022: Cylindre
+    100024: Cylindre_2
+    100026: Cylindre_3
+    100028: Cylindre_4
+    100030: Editeur_Cinema_4D
+    100032: //RootNode
+    100034: Neutre
+    100036: Neutre_1
+    100038: Neutre_3
+    100040: Neutre_4
+    100042: planche_0
+    100044: planche_1
+    100046: planche_10
+    100048: planche_11
+    100050: planche_12
+    100052: planche_13
+    100054: planche_14
+    100056: planche_15
+    100058: planche_16
+    100060: planche_17
+    100062: planche_18
+    100064: planche_19
+    100066: planche_2
+    100068: planche_20
+    100070: planche_21
+    100072: planche_22
+    100074: planche_23
+    100076: planche_24
+    100078: planche_3
+    100080: planche_4
+    100082: planche_5
+    100084: planche_6
+    100086: planche_7
+    100088: planche_8
+    100090: planche_9
+    100092: ponton
+    100094: poutre
+    100096: poutre_2
+    100098: Pyramide
+    100100: Pyramide_1
+    100102: Pyramide_1_2
+    100104: Pyramide_2
+    100106: Pyramide_2_2
+    100108: Pyramide_2_3
+    100110: rocher_1
+    100112: rocher_1_1
+    100114: rocher_1_1_2
+    100116: rocher_1_2
+    100118: rocher_1_2_2
+    100120: rocher_1_2_3
+    100122: "Sph\xE8re"
+    100124: "Sph\xE8re_1"
+    100126: "Sph\xE8re_1_2"
+    100128: "Sph\xE8re_2"
+    100130: Terrain
+    100132: Terrain_1
+    400000: Cloneur
+    400002: Cube
+    400004: Cube_1
+    400006: Cube_1_2
+    400008: Cube_1_3
+    400010: Cube_2
+    400012: Cube_2_2
+    400014: Cube_3
+    400016: Cube_3_2
+    400018: Cube_4
+    400020: Cube_5
+    400022: Cylindre
+    400024: Cylindre_2
+    400026: Cylindre_3
+    400028: Cylindre_4
+    400030: Editeur_Cinema_4D
+    400032: //RootNode
+    400034: Neutre
+    400036: Neutre_1
+    400038: Neutre_3
+    400040: Neutre_4
+    400042: planche_0
+    400044: planche_1
+    400046: planche_10
+    400048: planche_11
+    400050: planche_12
+    400052: planche_13
+    400054: planche_14
+    400056: planche_15
+    400058: planche_16
+    400060: planche_17
+    400062: planche_18
+    400064: planche_19
+    400066: planche_2
+    400068: planche_20
+    400070: planche_21
+    400072: planche_22
+    400074: planche_23
+    400076: planche_24
+    400078: planche_3
+    400080: planche_4
+    400082: planche_5
+    400084: planche_6
+    400086: planche_7
+    400088: planche_8
+    400090: planche_9
+    400092: ponton
+    400094: poutre
+    400096: poutre_2
+    400098: Pyramide
+    400100: Pyramide_1
+    400102: Pyramide_1_2
+    400104: Pyramide_2
+    400106: Pyramide_2_2
+    400108: Pyramide_2_3
+    400110: rocher_1
+    400112: rocher_1_1
+    400114: rocher_1_1_2
+    400116: rocher_1_2
+    400118: rocher_1_2_2
+    400120: rocher_1_2_3
+    400122: "Sph\xE8re"
+    400124: "Sph\xE8re_1"
+    400126: "Sph\xE8re_1_2"
+    400128: "Sph\xE8re_2"
+    400130: Terrain
+    400132: Terrain_1
+    2300000: Cube
+    2300002: Cube_1
+    2300004: Cube_1_2
+    2300006: Cube_1_3
+    2300008: Cube_2
+    2300010: Cube_2_2
+    2300012: Cube_3
+    2300014: Cube_3_2
+    2300016: Cube_4
+    2300018: Cube_5
+    2300020: Cylindre_2
+    2300022: Cylindre_4
+    2300024: planche_0
+    2300026: planche_1
+    2300028: planche_10
+    2300030: planche_11
+    2300032: planche_12
+    2300034: planche_13
+    2300036: planche_14
+    2300038: planche_15
+    2300040: planche_16
+    2300042: planche_17
+    2300044: planche_18
+    2300046: planche_19
+    2300048: planche_2
+    2300050: planche_20
+    2300052: planche_21
+    2300054: planche_22
+    2300056: planche_23
+    2300058: planche_24
+    2300060: planche_3
+    2300062: planche_4
+    2300064: planche_5
+    2300066: planche_6
+    2300068: planche_7
+    2300070: planche_8
+    2300072: planche_9
+    2300074: poutre
+    2300076: poutre_2
+    2300078: Pyramide
+    2300080: Pyramide_1
+    2300082: Pyramide_1_2
+    2300084: Pyramide_2
+    2300086: Pyramide_2_2
+    2300088: Pyramide_2_3
+    2300090: rocher_1_1_2
+    2300092: rocher_1_2_2
+    2300094: rocher_1_2_3
+    2300096: "Sph\xE8re_1_2"
+    2300098: "Sph\xE8re_2"
+    2300100: Terrain_1
+    3300000: Cube
+    3300002: Cube_1
+    3300004: Cube_1_2
+    3300006: Cube_1_3
+    3300008: Cube_2
+    3300010: Cube_2_2
+    3300012: Cube_3
+    3300014: Cube_3_2
+    3300016: Cube_4
+    3300018: Cube_5
+    3300020: Cylindre_2
+    3300022: Cylindre_4
+    3300024: planche_0
+    3300026: planche_1
+    3300028: planche_10
+    3300030: planche_11
+    3300032: planche_12
+    3300034: planche_13
+    3300036: planche_14
+    3300038: planche_15
+    3300040: planche_16
+    3300042: planche_17
+    3300044: planche_18
+    3300046: planche_19
+    3300048: planche_2
+    3300050: planche_20
+    3300052: planche_21
+    3300054: planche_22
+    3300056: planche_23
+    3300058: planche_24
+    3300060: planche_3
+    3300062: planche_4
+    3300064: planche_5
+    3300066: planche_6
+    3300068: planche_7
+    3300070: planche_8
+    3300072: planche_9
+    3300074: poutre
+    3300076: poutre_2
+    3300078: Pyramide
+    3300080: Pyramide_1
+    3300082: Pyramide_1_2
+    3300084: Pyramide_2
+    3300086: Pyramide_2_2
+    3300088: Pyramide_2_3
+    3300090: rocher_1_1_2
+    3300092: rocher_1_2_2
+    3300094: rocher_1_2_3
+    3300096: "Sph\xE8re_1_2"
+    3300098: "Sph\xE8re_2"
+    3300100: Terrain_1
+    4300000: rocher_1_2_2
+    4300002: rocher_1_1_2
+    4300004: Pyramide_2
+    4300006: Pyramide_1
+    4300008: Pyramide
+    4300010: Pyramide_2_2
+    4300012: Pyramide_1_2
+    4300014: Pyramide_2_3
+    4300016: Cube_1
+    4300018: Cube
+    4300020: planche_0
+    4300022: planche_1
+    4300024: planche_2
+    4300026: planche_3
+    4300028: planche_4
+    4300030: planche_5
+    4300032: planche_6
+    4300034: planche_7
+    4300036: planche_8
+    4300038: planche_9
+    4300040: planche_10
+    4300042: planche_11
+    4300044: planche_12
+    4300046: planche_13
+    4300048: planche_14
+    4300050: planche_15
+    4300052: planche_16
+    4300054: planche_17
+    4300056: planche_18
+    4300058: planche_19
+    4300060: planche_20
+    4300062: planche_21
+    4300064: planche_22
+    4300066: planche_23
+    4300068: planche_24
+    4300070: poutre_2
+    4300072: poutre
+    4300074: Cube_2
+    4300076: Cube_3
+    4300078: Cube_4
+    4300080: Cube_5
+    4300082: rocher_1_2_3
+    4300084: "Sph\xE8re_1_2"
+    4300086: "Sph\xE8re_2"
+    4300088: Cube_1_2
+    4300090: Cube_2_2
+    4300092: Cylindre_2
+    4300094: Cube_1_3
+    4300096: Cube_3_2
+    4300098: Cylindre_4
+    4300100: Terrain_1
+    6400000: Cube
+    6400002: Cube_1
+    6400004: Cube_1_2
+    6400006: Cube_1_3
+    6400008: Cube_2
+    6400010: Cube_2_2
+    6400012: Cube_3
+    6400014: Cube_3_2
+    6400016: Cube_4
+    6400018: Cube_5
+    6400020: Cylindre_2
+    6400022: Cylindre_4
+    6400024: planche_0
+    6400026: planche_1
+    6400028: planche_10
+    6400030: planche_11
+    6400032: planche_12
+    6400034: planche_13
+    6400036: planche_14
+    6400038: planche_15
+    6400040: planche_16
+    6400042: planche_17
+    6400044: planche_18
+    6400046: planche_19
+    6400048: planche_2
+    6400050: planche_20
+    6400052: planche_21
+    6400054: planche_22
+    6400056: planche_23
+    6400058: planche_24
+    6400060: planche_3
+    6400062: planche_4
+    6400064: planche_5
+    6400066: planche_6
+    6400068: planche_7
+    6400070: planche_8
+    6400072: planche_9
+    6400074: poutre
+    6400076: poutre_2
+    6400078: Pyramide
+    6400080: Pyramide_1
+    6400082: Pyramide_1_2
+    6400084: Pyramide_2
+    6400086: Pyramide_2_2
+    6400088: Pyramide_2_3
+    6400090: rocher_1_1_2
+    6400092: rocher_1_2_2
+    6400094: rocher_1_2_3
+    6400096: "Sph\xE8re_1_2"
+    6400098: "Sph\xE8re_2"
+    6400100: Terrain_1
+    7400000: CINEMA_4D_Prise Principale
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: CINEMA_4D_Prise Principale
+      takeName: CINEMA_4D_Prise Principale
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves:
+      - name: Curve
+        curve:
+          serializedVersion: 2
+          curve:
+          - serializedVersion: 2
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - serializedVersion: 2
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          preInfinity: 2
+          postInfinity: 2
+          rotationOrder: 0
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Editeur_Cinema_4D
+        weight: 1
+      - path: Neutre
+        weight: 1
+      - path: Neutre/Cube_1_3
+        weight: 1
+      - path: Neutre/Cube_3_2
+        weight: 1
+      - path: Neutre/Cylindre_3
+        weight: 1
+      - path: Neutre/Cylindre_3/Cylindre_4
+        weight: 1
+      - path: Neutre_1
+        weight: 1
+      - path: Neutre_1/Cube_1_2
+        weight: 1
+      - path: Neutre_1/Cube_2_2
+        weight: 1
+      - path: Neutre_1/Cylindre
+        weight: 1
+      - path: Neutre_1/Cylindre/Cylindre_2
+        weight: 1
+      - path: Neutre_3
+        weight: 1
+      - path: Neutre_3/Pyramide_1_2
+        weight: 1
+      - path: Neutre_3/Pyramide_2_2
+        weight: 1
+      - path: Neutre_3/Pyramide_2_3
+        weight: 1
+      - path: Neutre_4
+        weight: 1
+      - path: Neutre_4/Pyramide
+        weight: 1
+      - path: Neutre_4/Pyramide_1
+        weight: 1
+      - path: Neutre_4/Pyramide_2
+        weight: 1
+      - path: ponton
+        weight: 1
+      - path: ponton/Cloneur
+        weight: 1
+      - path: ponton/Cloneur/planche_0
+        weight: 1
+      - path: ponton/Cloneur/planche_1
+        weight: 1
+      - path: ponton/Cloneur/planche_2
+        weight: 1
+      - path: ponton/Cloneur/planche_3
+        weight: 1
+      - path: ponton/Cloneur/planche_4
+        weight: 1
+      - path: ponton/Cloneur/planche_5
+        weight: 1
+      - path: ponton/Cloneur/planche_6
+        weight: 1
+      - path: ponton/Cloneur/planche_7
+        weight: 1
+      - path: ponton/Cloneur/planche_8
+        weight: 1
+      - path: ponton/Cloneur/planche_9
+        weight: 1
+      - path: ponton/Cloneur/planche_10
+        weight: 1
+      - path: ponton/Cloneur/planche_11
+        weight: 1
+      - path: ponton/Cloneur/planche_12
+        weight: 1
+      - path: ponton/Cloneur/planche_13
+        weight: 1
+      - path: ponton/Cloneur/planche_14
+        weight: 1
+      - path: ponton/Cloneur/planche_15
+        weight: 1
+      - path: ponton/Cloneur/planche_16
+        weight: 1
+      - path: ponton/Cloneur/planche_17
+        weight: 1
+      - path: ponton/Cloneur/planche_18
+        weight: 1
+      - path: ponton/Cloneur/planche_19
+        weight: 1
+      - path: ponton/Cloneur/planche_20
+        weight: 1
+      - path: ponton/Cloneur/planche_21
+        weight: 1
+      - path: ponton/Cloneur/planche_22
+        weight: 1
+      - path: ponton/Cloneur/planche_23
+        weight: 1
+      - path: ponton/Cloneur/planche_24
+        weight: 1
+      - path: ponton/Cube
+        weight: 1
+      - path: ponton/Cube_1
+        weight: 1
+      - path: ponton/Cube_2
+        weight: 1
+      - path: ponton/Cube_3
+        weight: 1
+      - path: ponton/Cube_4
+        weight: 1
+      - path: ponton/Cube_5
+        weight: 1
+      - path: ponton/poutre
+        weight: 1
+      - path: ponton/poutre_2
+        weight: 1
+      - path: rocher_1
+        weight: 1
+      - path: rocher_1/rocher_1_2_3
+        weight: 1
+      - path: rocher_1_1
+        weight: 1
+      - path: rocher_1_1/rocher_1_1_2
+        weight: 1
+      - path: rocher_1_2
+        weight: 1
+      - path: rocher_1_2/rocher_1_2_2
+        weight: 1
+      - path: "Sph\xE8re"
+        weight: 1
+      - path: "Sph\xE8re/Sph\xE8re_2"
+        weight: 1
+      - path: "Sph\xE8re_1"
+        weight: 1
+      - path: "Sph\xE8re_1/Sph\xE8re_1_2"
+        weight: 1
+      - path: Terrain
+        weight: 1
+      - path: Terrain_1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
