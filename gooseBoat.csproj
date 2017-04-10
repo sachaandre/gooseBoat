@@ -84,6 +84,7 @@
     <Compile Include="Assets\Scripts\Board.cs" />
     <Compile Include="Assets\Scripts\CameraScriptt.cs" />
     <Compile Include="Assets\Scripts\DayNight.cs" />
+    <Compile Include="Assets\Scripts\Dice.cs" />
     <Compile Include="Assets\Scripts\Game.cs" />
     <Compile Include="Assets\Scripts\Island.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />

@@ -14,4 +14,8 @@ public class Player {
         playerTransform.position = new Vector3(0, 0, 0);
         Object.Instantiate(prefab, playerTransform.position, playerTransform.rotation);
     }
+
+    public void SetPosition() {
+        
+    }
 }
