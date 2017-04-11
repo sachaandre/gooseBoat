@@ -4,18 +4,24 @@ using UnityEngine;
 
 public class Player {
 
-    Transform playerTransform;
-    GameObject prefab;
+    public Transform playerTransform;
+    public GameObject prefab;
 
     public Player()
     {
-        prefab = Resources.Load("Player") as GameObject;
+        prefab = GameObject.Find("pirateships");
+        /*prefab = Resources.Load("Player") as GameObject;
+        
+        Object.Instantiate(prefab, playerTransform.position, playerTransform.rotation)*/
         playerTransform = prefab.GetComponent<Transform>();
-        playerTransform.position = new Vector3(0, 0, 0);
-        Object.Instantiate(prefab, playerTransform.position, playerTransform.rotation);
     }
 
-    public void SetPosition() {
-        
+    public void SetPosition(Vector3 islandPos) {
+        playerTransform.position = islandPos;
+    }
+
+    public Vector3 GetPosition()
+    {
+        return playerTransform.position;
     }
 }

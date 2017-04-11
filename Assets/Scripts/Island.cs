@@ -17,8 +17,7 @@ public class Island
 
         prefab = Resources.Load("ile") as GameObject;
         islandTransform = prefab.GetComponent<Transform>();
-        islandTransform.position = new Vector3(0f, 0f, 0f);
-        this.index = i;
+        index = i;
         this.SetPosition(this.index);
         islandTransform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
         MonoBehaviour.Instantiate(prefab, islandTransform.position, islandTransform.rotation);

@@ -21,6 +21,9 @@ public class Board
         for (int i = 0; i < 64; i++)
         {
             this.islands[i] = new Island(i);
+            islandsPosition[i] = islands[i].GetPosition(i);
+            islands[i].prefab.name = "ile"+i.ToString();
+            
         }
     }
 
