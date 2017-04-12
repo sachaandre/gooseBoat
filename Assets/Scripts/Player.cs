@@ -6,6 +6,7 @@ public class Player {
 
     public Transform playerTransform;
     public GameObject prefab;
+    public bool hasWon;
 
     public Player(string playerName, Vector3 islandPos)
     {
@@ -14,6 +15,7 @@ public class Player {
         Object.Instantiate(prefab, playerTransform.position, playerTransform.rotation)*/
         playerTransform = prefab.GetComponent<Transform>();
         SetPosition(islandPos);
+        hasWon = false;
     }
 
     public void SetPosition(Vector3 islandPos) {

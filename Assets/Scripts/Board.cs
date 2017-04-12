@@ -4,21 +4,21 @@ using UnityEngine;
 
 public class Board
 {
-
+    public int numberOfIslands = 64;
     public Island[] islands;
     public Vector3[] islandsPosition;
 
     // Use this for initialization
     public Board()
     {
-        islands = new Island[64];
-        islandsPosition = new Vector3[64];
+        islands = new Island[numberOfIslands];
+        islandsPosition = new Vector3[numberOfIslands];
         CreateIslands();
     }
 
     public void CreateIslands()
     {
-        for (int i = 0; i < 64; i++)
+        for (int i = 0; i < numberOfIslands; i++)
         {
             islands[i] = new Island(i);
             islandsPosition[i] = islands[i].GetPosition(i);

@@ -14,7 +14,7 @@ public class Game : MonoBehaviour {
     private Vector3[] playerPos;
 
     private Player currentPlayer;
-    private int currentPlayerIndex = 5;
+    private int currentPlayerIndex = -1;
     private Vector3 currentPlayerPos;
 
     private Text playerText;
@@ -35,6 +35,10 @@ public class Game : MonoBehaviour {
 
     private GameObject startButton;
     private GameObject rollDiceButton;
+
+    private Text victoryText;
+    private GameObject victoryTextObject;
+    private GameObject background;
 
     public float speed = 5f;
     public int nbPlayer;
@@ -57,11 +61,16 @@ public class Game : MonoBehaviour {
         playerTextObject = GameObject.Find("RoundText");
         playerText = playerTextObject.GetComponent<Text>();
 
-        //Récupérer les buttons
+        //Récupérer les éléments graphiques
         startButton = GameObject.Find("StartGameButton");
         rollDiceButton = GameObject.Find("RollDiceButton");
+        victoryTextObject = GameObject.Find("VictoryText");
+        victoryText = victoryTextObject.GetComponent<Text>();
+        background = GameObject.Find("Background");
 
+        //Activation / Desactivation Game Objects
         rollDiceButton.SetActive(false);
+        victoryTextObject.SetActive(false);
 
         //Init diceValue
         diceValue = 0;
@@ -77,13 +86,17 @@ public class Game : MonoBehaviour {
             currentPlayerPos = Vector3.MoveTowards(currentPlayerPos, targetPos, speed * Time.deltaTime);
             currentPlayer.prefab.transform.position = currentPlayerPos;
 
-            currentPlayer.SetPosition(currentPlayerPos); 
+            currentPlayer.SetPosition(currentPlayerPos);
+            rollDiceButton.SetActive(false);
 
             if(currentPlayerPos == targetPos)
             {
                 move = false;
+                rollDiceButton.SetActive(true);
             }
         }
+
+        
     }
 
     /////////////////////////////////
@@ -116,14 +129,49 @@ public class Game : MonoBehaviour {
 
     private void MovePlayer()
     {
-        actualCase = currentPlayer.CheckPlayerPresence(board.islandsPosition);
+        SetTargetCase();
         currentPlayerPos = currentPlayer.GetPosition();
-        targetCase = actualCase-diceValue;
         targetPos = board.islandsPosition[targetCase];
-        move = true;
-        
+        move = true;  
     } 
 
+    private void SetTargetCase()
+    {
+        actualCase = currentPlayer.CheckPlayerPresence(board.islandsPosition);
+        targetCase = actualCase - diceValue;
+        if (targetCase < 0)
+        {
+            targetCase = 0;
+            currentPlayer.hasWon = true;
+            CheckWinState();
+            Debug.Log(currentPlayerIndex);
+        }
+    }
+
+    private void CheckWinState()
+    {
+        for (int i = 0; i < nbPlayer-1; i++)
+        {
+            if (player[i].hasWon)
+            {
+                rollDiceButton.SetActive(false);
+                victoryText.text = "Le gagnant est : p" + (i+1).ToString();
+                victoryTextObject.SetActive(true);
+                background.SetActive(true);
+                startButton.SetActive(true);
+                Reset();
+            }
+        }
+    }
+
+    private void Reset()
+    {
+        for (int k = 0; k < nbPlayer - 1; k++)
+        {
+            player[k].SetPosition(board.islandsPosition[63]);
+        }
+        currentPlayerIndex = 5;
+    }
     /////////////////////////////////
     /////////////////////////////////
 
@@ -179,12 +227,14 @@ public class Game : MonoBehaviour {
 
     public void OnClickStartGame()
     {
-        if (currentPlayerIndex == 5)
+        if (currentPlayerIndex == -1)
         {
             GameRound();
             DisplayGUI();
             startButton.SetActive(false);
+            victoryTextObject.SetActive(false);
             rollDiceButton.SetActive(true);
+            background.SetActive(false);
         }
         
     }
