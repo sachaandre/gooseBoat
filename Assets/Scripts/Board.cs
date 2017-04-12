@@ -11,7 +11,7 @@ public class Board
     // Use this for initialization
     public Board()
     {
-        this.islands = new Island[64];
+        islands = new Island[64];
         islandsPosition = new Vector3[64];
         CreateIslands();
     }
@@ -20,9 +20,9 @@ public class Board
     {
         for (int i = 0; i < 64; i++)
         {
-            this.islands[i] = new Island(i);
+            islands[i] = new Island(i);
             islandsPosition[i] = islands[i].GetPosition(i);
-            islands[i].prefab.name = "ile"+i.ToString();
+            islands[i].prefab.name = "ile"+i.ToString()+" ";
             
         }
     }
